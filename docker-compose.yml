@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+    php:
+        container_name: php-phpunit
+        build: 
+           context: etc/dev/php-fpm
+        volumes:
+           - .:/var/www/app

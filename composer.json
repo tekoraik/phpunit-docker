@@ -1,0 +1,6 @@
+{
+    "name": "tekoraik/prueba-phpunit",
+    "require": {
+        "phpunit/phpunit": "*"
+    }
+}
